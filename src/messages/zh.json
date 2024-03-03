@@ -1,0 +1,9 @@
+{
+  "Common": {
+    "Rights": "版权所有 © 2024 SEOCaseStudy。保留所有权利。"
+  },
+  "LocaleSwitcher": {
+    "label": "更改语言",
+    "locale": "{locale, select, zh {中文} en {English} other {English}}"
+  }
+}

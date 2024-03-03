@@ -1,0 +1,5 @@
+# *
+User-agent: *
+
+# Sitemaps
+Sitemap: https://seocasestudy.com/sitemap.xml
