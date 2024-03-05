@@ -7,7 +7,7 @@ export const Steps = () => {
     <H2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
       SEO 学习路线图
     </H2>
-    <p className="mx-auto mt-4 max-w-2xl text-lg font-normal text-gray-700 lg:text-xl lg:leading-8">
+    <p className="mx-auto mt-4 text-lg font-normal text-gray-700 lg:text-xl lg:leading-8">
       Create your own product with us and practice seo skill with just 5 easy steps
     </p>
   </div>

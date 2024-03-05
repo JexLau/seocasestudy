@@ -5,11 +5,11 @@ export const GTag = () => {
     return null
   }
   return <>
-    <Script async src="https://www.googletagmanager.com/gtag/js?id=G-KE5E4DQ1VV"></Script>
+    <Script async src="https://www.googletagmanager.com/gtag/js?id=G-4ZBV6P6FTW"></Script>
     <Script id="gtag" async dangerouslySetInnerHTML={{
       __html: `window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-KE5E4DQ1VV');`}} />
+  gtag('config', 'G-4ZBV6P6FTW');`}} />
   </>
 }
