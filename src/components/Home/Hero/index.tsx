@@ -1,4 +1,5 @@
 import { H1, P } from "@/base-components/Text"
+import { SuggestionClient } from "@/components/Suggestion"
 import { MaskContainer } from "@/components/SvgMaskEffect"
 import clsx from "clsx"
 
@@ -10,13 +11,12 @@ export const Hero = () => {
   const h1 = <>SEO Case Study <br /> 通过案例学习 SEO </>
   const version = "v1.0.0"
   const udpate = "UPDATED On March 4, 2024"
-  return <div className="flex h-[46rem] w-full items-center justify-center overflow-hidden">
+  return <div className="flex w-full flex-col items-center justify-center overflow-hidden md:h-[46rem] md:flex-row">
     <MaskContainer
       className="h-[46rem]"
       revealText={
         <div className="flex h-full w-full items-center justify-center bg-grid-black/[0.05] dark:bg-grid-white/[0.2]">
-          <div className="absolute inset-0 z-[-1] flex h-full w-full items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div>
-          <div className="mx-auto flex max-w-4xl flex-col text-center">
+          <div className="flex max-w-4xl flex-col px-8">
             <H1>{h1}</H1>
             <P className='my-4 text-[30px] font-bold'>{version}</P>
             <P className='text-gray-400'>{udpate}</P>
@@ -27,7 +27,7 @@ export const Hero = () => {
         </div>
       }
     >
-      <div className="mx-auto flex max-w-4xl flex-col text-center">
+      <div className="mx-auto flex max-w-4xl flex-col px-8">
         <p className={clsx(["text-4xl font-bold my-10  text-main-text sm:text-4xl", "text-red-500"])}>{h1}</p>
         <P className='my-4 text-[30px] font-bold'>{version}</P>
         <P className='text-gray-400'>{udpate}</P>
@@ -36,5 +36,6 @@ export const Hero = () => {
         <P className='my-4'>{p3}</P>
       </div>
     </MaskContainer>
+    <SuggestionClient />
   </div>
 }
