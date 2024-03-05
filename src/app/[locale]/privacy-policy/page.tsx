@@ -16,18 +16,18 @@ const PolicyPage = ({ params }: { params: Record<string, string> }) => {
           <p className=" leading-10">{"Thank you for choosing Seo Case Study! This Privacy Policy explains our practices regarding the collection, use, and protection of your information when you interact with our platform located at "}
             <a href="https://seocasestudy.com" className="underline text-main-blue">seo case study</a>
           </p>
-          <h2 className={"text-white text-2xl my-8 font-bold"}>{"1、Information We Collect:"}</h2>
+          <h2 className={"text-main-text text-2xl my-8 font-bold"}>{"1、Information We Collect:"}</h2>
           <p className=" leading-10">{"a. Personal Data: When you use Seo Case Study, we may collect your name, email address, and payment information for order processing purposes."}</p>
           <p className=" leading-10">{"b. Non-Personal Data: We may also collect non-personal data through web cookies to enhance your browsing experience."}</p>
-          <h2 className={"text-white text-2xl my-8 font-bold"}>{"2、Purpose of Data Collection:"}</h2>
+          <h2 className={"text-main-text text-2xl my-8 font-bold"}>{"2、Purpose of Data Collection:"}</h2>
           <p className=" leading-10">We collect your personal data solely for order processing purposes.</p>
-          <h2 className={"text-white text-2xl my-8 font-bold"}>3、Data Sharing:</h2>
+          <h2 className={"text-main-text text-2xl my-8 font-bold"}>3、Data Sharing:</h2>
           <p className=" leading-10">{"We do not share your personal data with any third parties."}</p>
-          <h2 className={"text-white text-2xl my-8 font-bold"}>{"4、Children's Privacy:"}</h2>
+          <h2 className={"text-main-text text-2xl my-8 font-bold"}>{"4、Children's Privacy:"}</h2>
           <p className=" leading-10">{"Seo Case Study does not knowingly collect any personal data from children."}</p>
-          <h2 className={"text-white text-2xl my-8 font-bold"}>{"5、Updates to the Privacy Policy:"}</h2>
+          <h2 className={"text-main-text text-2xl my-8 font-bold"}>{"5、Updates to the Privacy Policy:"}</h2>
           <p className=" leading-10">We will notify users of any updates to this Privacy Policy via email.</p>
-          <h2 className={"text-white text-2xl my-8 font-bold"}>{"6、Contact Information:"}</h2>
+          <h2 className={"text-main-text text-2xl my-8 font-bold"}>{"6、Contact Information:"}</h2>
           <p className=" leading-10">
             If you have any questions or concerns regarding our Privacy Policy, please contact us at <a href="mailto:jexlau.dev@gmail.com" className="underline text-main-blue">jexlau.dev@gmail.com</a>.
           </p>

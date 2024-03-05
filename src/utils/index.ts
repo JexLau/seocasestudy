@@ -6,3 +6,5 @@ export const extractDomain = (url: string)  => {
   // 如果匹配成功，返回域名部分
   return match ? match[1] : null;
 }
+
+export * from './cn'

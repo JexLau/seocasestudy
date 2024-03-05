@@ -8,10 +8,10 @@ interface MainContentProps extends PropsWithChildren {
 
 export const MainContent = ({ children, className }: MainContentProps) => {
   return <>
-  <div className={clsx(["w-full h-full overflow-auto mt-[88px] pt-[40px]", className])}>
-    {children}
-  </div>
-    <Footer />
-    </>
+    <div className={clsx(["w-full h-full overflow-auto mt-[88px]", className])}>
+      {children}
+      <Footer />
+    </div>
+  </>
 
 }

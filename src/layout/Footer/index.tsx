@@ -9,13 +9,13 @@ export function Footer() {
   return (
     <footer className=" bg-main-bg">
       <Container>
-        <nav className="py-8 text-sm flex items-center justify-between" aria-label="quick links">
+        <nav className="pt-4 text-sm flex items-center justify-between" aria-label="quick links">
           <div className="flex gap-x-4">
-            <NavLink className='!text-gray-300 !text-sm' href="/privacy-policy">{'Policy'}</NavLink>
-            <NavLink className='!text-gray-300 !text-sm' href="/terms-of-service">{'Terms'}</NavLink>
+            <NavLink className='!text-gray-500 !text-sm' href="/privacy-policy">{'Policy'}</NavLink>
+            <NavLink className='!text-gray-500 !text-sm' href="/terms-of-service">{'Terms'}</NavLink>
           </div>
         </nav>
-        <div className="flex flex-col items-center py-4 sm:flex-row-reverse sm:justify-between">
+        <div className="flex flex-col items-center py-2 sm:flex-row-reverse sm:justify-between">
           <div className="flex gap-x-6">
             <div
               className="group flex flex-col items-center gap-y-1"
@@ -36,7 +36,7 @@ export function Footer() {
               </svg>
             </Link>
             <Link
-              href="https://github.com/jexlau"
+              href="https://github.com/jexlau/seocasestudy"
               className="group"
               aria-label="TaxPal on GitHub"
             >

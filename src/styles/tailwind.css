@@ -64,13 +64,13 @@
 
 /* Background of the scrollbar except the button or thumb */
 ::-webkit-scrollbar-track {
-  background: #0d0821;
+  background: #00000000;
   border-radius: 10px;
 }
 
 /* Scrollbar handle */
 ::-webkit-scrollbar-thumb {
-  background: #66666660;
+  background: #33333360;
   border-radius: 10px;
 }
 

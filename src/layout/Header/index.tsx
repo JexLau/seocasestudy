@@ -15,16 +15,13 @@ export function Header({ downloadText, href }: { downloadText?: string, href?: s
     },
   ]
   return (
-    <header className="py-6 fixed top-0 z-50 bg-[#ffffff03] shadow-lg w-full
-     left-0  md:backdrop-blur mix-blend-difference
-    ">
+    <header className="fixed left-0 top-0 z-50 w-full bg-[#ffffff03] py-6 mix-blend-difference shadow md:backdrop-blur">
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
             <Link href="/" aria-label="Home">
-              <Logo className="h-10 w-auto" />
+              <Logo className="h-8 w-auto" />
             </Link>
-
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:flex md:gap-x-6">
@@ -33,10 +30,6 @@ export function Header({ downloadText, href }: { downloadText?: string, href?: s
               ))}
             </div>
             <LocaleSwitcher />
-            {/* 移动端隐藏 */}
-            {/* <div className="hidden md:flex">
-              <FreeToTry text={downloadText} isDownload={!!href} href={href} className="flex-shrink-0" />
-            </div> */}
             <div className="-mr-1 md:hidden">
               <MobileNavigation nav={nav}>
               </MobileNavigation>
