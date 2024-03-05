@@ -1,6 +1,7 @@
 import { H1, H2, H3, H4, P } from '@/base-components/Text';
 import { Hero } from '@/components/Home/Hero';
-import { Steps } from '@/components/Steps';
+import { Steps } from '@/components/Home/Steps';
+import { Tools } from '@/components/Home/Tools';
 import { Container } from '@/layout/Container';
 import { MainContent } from '@/layout/Main';
 import { Meta } from '@/layout/Meta'
@@ -17,6 +18,7 @@ export default function Home({ params }: { params: Record<string, string> }) {
         <Hero />
         <Container className='leading-8'>
           <Steps />
+          <Tools />
         </Container>
       </MainContent>
     </>

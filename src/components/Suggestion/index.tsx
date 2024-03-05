@@ -27,7 +27,7 @@ export const SuggestionClient = () => {
   }
   return (
     <div className="mt-4 flex h-full w-full flex-col justify-center px-10 bg-grid-black/[0.1] md:mt-0 md:w-[500px]">
-      <div className="mb-4">Enter Your Description</div>
+      <div className="mb-4">Enter Your Suggestion</div>
       <div className="relative">
         <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
           <EnvelopeIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
