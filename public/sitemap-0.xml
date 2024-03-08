@@ -6,19 +6,19 @@
   xmlns:image="https://www.google.com/schemas/sitemap-image/1.1"
   xmlns:video="https://www.google.com/schemas/sitemap-video/1.1">
     <url>
-        <loc>https://seocasestudy.com/</loc>
+        <loc>https://seocasestudy.dev/</loc>
         <lastmod>2024-03-03T00:11:29.975Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://seocasestudy.com/terms-of-service</loc>
+        <loc>https://seocasestudy.dev/terms-of-service</loc>
         <lastmod>2024-03-03T00:15:04.850Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://seocasestudy.com/privacy-policy</loc>
+        <loc>https://seocasestudy.dev/privacy-policy</loc>
         <lastmod>2024-03-03T00:15:04.850Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>

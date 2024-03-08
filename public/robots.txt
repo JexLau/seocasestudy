@@ -2,4 +2,4 @@
 User-agent: *
 
 # Sitemaps
-Sitemap: https://seocasestudy.com/sitemap.xml
+Sitemap: https://seocasestudy.dev/sitemap.xml
