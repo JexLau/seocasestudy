@@ -10,7 +10,7 @@ export const Tools = () => {
         SEO 工具
       </H2>
       <p className="mx-auto mt-4 text-lg font-normal text-gray-700 lg:text-xl lg:leading-8">
-        Easy to use 10+ tools for better website visibility and traffic.
+        Easy use 20+ tools for better website visibility and traffic
       </p>
     </div>
     <div className="links mt-8 grid gap-6 sm:grid-cols-1 lg:grid-cols-3">

@@ -3,7 +3,7 @@ import EvenoddSvg from './evenodd.svg';
 import Image from "next/image";
 
 export const tools1: ToolCardProps[] = [{
-  title: 'Google Collection',
+  title: 'Google',
   desc: '由 Google 开发的网络搜索引擎，是万维网上使用最广泛的搜索引擎，每天提供数十亿的搜索结果。',
   icon: '',
   children: [
@@ -25,7 +25,7 @@ export const tools1: ToolCardProps[] = [{
     }
   ]
 }, {
-  title: 'Ahref Collection',
+  title: 'Ahref',
   desc: 'Ahrefs 是一款综合性 SEO 工具，可为链接构建、关键词研究、竞争对手分析提供高级分析和见解。',
   icon: '',
   children: [
@@ -47,7 +47,7 @@ export const tools1: ToolCardProps[] = [{
     }
   ]
 }, {
-  title: 'Extension Collection',
+  title: 'Extension',
   desc: '通过浏览器扩展程序，可以快速获取网站的 SEO 数据，方便站长进行 SEO 优化。',
   icon: '',
   children: [
@@ -115,7 +115,7 @@ export const ToolCard = (props: ToolCardProps) => {
     <ul className="mt-6 sm:mt-10">
       {props.children?.map(item => {
         return <li key={item.title} className="mb-2 border-b border-solid border-black pb-4 pt-2 last:mb-0">
-          <a className="flex items-center justify-between text-lg font-medium text-black hover:text-black sm:text-xl"
+          <a rel="nofollow" className="flex items-center justify-between text-lg font-medium text-black hover:text-black sm:text-xl"
             href={item.href}>
             <span>{item.title}</span>
             <Image src={EvenoddSvg} alt={item.title} className="inline-block h-6" />
