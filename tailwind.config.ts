@@ -28,9 +28,11 @@ export default {
     extend: {
       colors: {
         'main-bg': '#FFFFFFDE',
-        'main-blue': '#667dea',
-        'main-purple': '#764ba2',
+        'main-blue': '#D78948',
+        'main-purple': '#4B9AD4',
         'main-text': '#0d0821DE',
+        'main-green': '#46924A',
+        'main-red': '#BE524B',
       },
       keyframes: {
         spin: {
@@ -40,6 +42,7 @@ export default {
       },
       animation: {
         swing: 'swing 1s ease-in-out infinite',
+        swingy: 'swingY 1s ease-in-out infinite',
         spin: 'spin 1s linear infinite',
       },
       borderRadius: {

@@ -18,22 +18,22 @@ export const Hero = () => {
         <div className="flex h-full w-full items-center justify-center bg-grid-black/[0.05] dark:bg-grid-white/[0.2]">
           <div className="flex max-w-4xl flex-col px-8">
             <H1>{h1}</H1>
-            <P className='my-4 text-[30px] font-bold'>{version}</P>
-            <P className='text-gray-400'>{udpate}</P>
-            <P className='mt-8'>{p1}</P>
-            <P className='my-4'>{p2}</P>
-            <P className='my-4'>{p3}</P>
+            <p className='my-4 text-[30px] font-bold'>{version}</p>
+            <p className='text-gray-400'>{udpate}</p>
+            <p className='mt-8'>{p1}</p>
+            <p className='my-4'>{p2}</p>
+            <p className='my-4'>{p3}</p>
           </div>
         </div>
       }
     >
       <div className="mx-auto flex max-w-4xl flex-col px-8">
         <p className={clsx(["text-4xl font-bold my-10  text-main-text sm:text-4xl", "text-red-500"])}>{h1}</p>
-        <P className='my-4 text-[30px] font-bold'>{version}</P>
-        <P className='text-gray-400'>{udpate}</P>
-        <P className='mt-8'>{p1}</P>
-        <P className='my-4'>{p2}</P>
-        <P className='my-4'>{p3}</P>
+        <p className='my-4 text-[30px] font-bold'>{version}</p>
+        <p className='text-gray-400'>{udpate}</p>
+        <p className='mt-8'>{p1}</p>
+        <p className='my-4'>{p2}</p>
+        <p className='my-4'>{p3}</p>
       </div>
     </MaskContainer>
     <SuggestionClient />

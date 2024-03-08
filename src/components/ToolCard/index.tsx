@@ -1,4 +1,4 @@
-import { H3 } from '@/base-components/Text';
+import { H3, H4 } from '@/base-components/Text';
 import EvenoddSvg from './evenodd.svg';
 import Image from "next/image";
 
@@ -105,7 +105,7 @@ export interface ToolCardProps {
 }
 
 export const ToolCard = (props: ToolCardProps) => {
-  return <div className="rounded-lg bg-white px-8 py-10" >
+  return <div className="rounded-lg bg-white px-8 py-10 shadow-lg">
     <H3 className="mb-4 text-[20px] font-extrabold leading-none text-black sm:text-[30px]">
       <span>{props.title}</span>
     </H3>
@@ -114,12 +114,14 @@ export const ToolCard = (props: ToolCardProps) => {
     </div>
     <ul className="mt-6 sm:mt-10">
       {props.children?.map(item => {
-        return <li key={item.title} className="mb-2 border-b border-solid border-black pb-4 pt-2 last:mb-0">
-          <a rel="nofollow" className="flex items-center justify-between text-lg font-medium text-black hover:text-black sm:text-xl"
-            href={item.href}>
-            <span>{item.title}</span>
-            <Image src={EvenoddSvg} alt={item.title} className="inline-block h-6" />
-          </a>
+        return <li key={item.title} className="border-b border-solid border-black pb-4 pt-4 text-black hover:animate-swing hover:bg-gray-100 hover:px-6">
+          <H4 className='m-0'>
+            <a rel="nofollow" className="flex items-center justify-between text-lg font-medium sm:text-xl"
+              href={item.href}>
+              <span>{item.title}</span>
+              <Image src={EvenoddSvg} alt={item.title} className="inline-block h-6" />
+            </a>
+          </H4>
         </li>
       })}
     </ul>

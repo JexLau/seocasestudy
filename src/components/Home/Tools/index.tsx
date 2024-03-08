@@ -1,3 +1,4 @@
+import { NormalButton } from "@/base-components/Button"
 import { H2 } from "@/base-components/Text"
 import { ToolCard, tools1, tools2 } from "@/components/ToolCard"
 import Image from "next/image"
@@ -22,6 +23,11 @@ export const Tools = () => {
       {tools2.map(item => {
         return <ToolCard key={item.title} {...item} />
       })}
+    </div>
+    <div className="my-8 flex w-full justify-center">
+      <NormalButton href="/" className="px-8">
+        More Tools
+      </NormalButton>
     </div>
   </div>
 }

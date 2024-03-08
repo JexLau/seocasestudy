@@ -27,6 +27,12 @@
   }
 }
 
+@keyframes swingY {
+  0%, 100% {
+    transform: translateY(-6px);
+  }
+}
+
 .shimmer-bg {
   --shimmer-angle: 0deg;
   background: conic-gradient(from var(--shimmer-angle), theme(colors.main-blue) 0%, theme(colors.main-purple) 10%, theme(colors.main-blue) 20%);
