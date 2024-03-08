@@ -11,6 +11,6 @@ export const cases = [{
   title: '一个700万美金dropshipping网站的沉浮',
   author: '西品东来',
   link: 'https://www.seozzr.com/blog/seo-case-study-dropshipping-site/',
-  desc: "最近看到一个非常有意思的网站，高光时刻，月收入达70多万刀，三年之后不幸没。我研究了一下他的发展史，我们一起来看一下。",
+  desc: "最近看到一个非常有意思的网站，高光时刻，月收入达70多万刀，三年之后不幸没落。我研究了一下他的发展史，我们一起来看一下。",
   image: Dropshipping,
 }]

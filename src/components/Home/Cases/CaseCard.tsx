@@ -19,7 +19,7 @@ export const CaseCard = ({ title, author, link, image, desc }: CaseCardProps) =>
         </div>
         <div
           className="absolute right-0 top-0 mr-3 mt-3 flex h-16 w-16 flex-col items-center justify-center rounded-full bg-gray-800 px-4 text-sm text-white transition duration-500 ease-in-out hover:bg-white hover:text-gray-800">
-          <span className="font-bold">27</span>
+          <span className="font-bold">7</span>
           <small>March</small>
         </div>
       </div>

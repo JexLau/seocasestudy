@@ -1,6 +1,6 @@
 import { NormalButton } from "@/base-components/Button"
 import { H2 } from "@/base-components/Text"
-import { ToolCard, tools1, tools2 } from "@/components/ToolCard"
+import { ToolCard, tools1, tools2 } from "@/components/Home/Tools/ToolCard"
 import Image from "next/image"
 
 export const Tools = () => {

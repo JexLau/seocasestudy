@@ -1,5 +1,7 @@
 import { H1, H2, H3, H4, P } from '@/base-components/Text';
 import { Cases } from '@/components/Home/Cases';
+import { Docs } from '@/components/Home/Docs';
+import { FAQ } from '@/components/Home/FAQ';
 import { Hero } from '@/components/Home/Hero';
 import { Steps } from '@/components/Home/Steps';
 import { Tools } from '@/components/Home/Tools';
@@ -19,8 +21,10 @@ export default function Home({ params }: { params: Record<string, string> }) {
         <Hero />
         <Container className='leading-8'>
           <Steps />
+          <Docs />
           <Tools />
           <Cases />
+          <FAQ />
         </Container>
       </MainContent>
     </>

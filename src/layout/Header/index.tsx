@@ -13,6 +13,10 @@ export function Header({ downloadText, href }: { downloadText?: string, href?: s
       title: "Home",
       href: "/"
     },
+    {
+      title: "FAQ",
+      href: "#faq"
+    },
   ]
   return (
     <header className="sticky left-0 top-0 z-50 w-full bg-[#ffffff03] py-6 mix-blend-difference shadow md:backdrop-blur">
