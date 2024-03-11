@@ -1,4 +1,3 @@
-import { H1, H2, H3, H4, P } from '@/base-components/Text';
 import { Cases } from '@/components/Home/Cases';
 import { Docs } from '@/components/Home/Docs';
 import { FAQ } from '@/components/Home/FAQ';
@@ -16,7 +15,7 @@ export default function Home({ params }: { params: Record<string, string> }) {
 
   return (
     <>
-      <Meta title={'通过案例学习 SEO - SEO Case Study'} description={"SEO Case Study 是一份 SEO 指南，专注于提供 SEO 教学和实践案，旨在通过丰富的实战案例和工具，帮助站长在实际项目中轻松应用 SEO 策略。"} locale={locale} />
+      <Meta title={'真实案例，真诚分享：免费获取资料和工具，通过案例学习 SEO，开启网站优化新篇 - SEO Case Study'} description={"SEO Case Study 是一份 SEO 指南，专注于提供 SEO 教程和实践案例，旨在通过丰富的实战案例和工具，帮助站长在实际项目中轻松应用 SEO 策略。"} locale={locale} />
       <MainContent>
         <Hero />
         <Container className='leading-8'>

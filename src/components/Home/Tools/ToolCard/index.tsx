@@ -119,7 +119,7 @@ export const ToolCard = (props: ToolCardProps) => {
             <a rel="nofollow" className="flex items-center justify-between text-lg font-medium sm:text-xl"
               href={item.href}>
               <span>{item.title}</span>
-              <Image src={EvenoddSvg} alt={item.title} className="inline-block h-6" />
+              <Image src={EvenoddSvg} alt={item.title} title={item.title} className="inline-block h-6" />
             </a>
           </H4>
         </li>

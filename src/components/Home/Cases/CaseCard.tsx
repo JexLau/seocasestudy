@@ -13,7 +13,7 @@ export interface CaseCardProps {
 export const CaseCard = ({ title, author, link, image, desc }: CaseCardProps) => {
   return <Link href={link} target="_blank" passHref className="overflow-hidden rounded shadow-lg hover:animate-swingy">
       <div className="relative">
-        <Image aria-label={title} alt={title} className="h-[224px] object-cover object-top" src={image} height={224} width={400} />
+        <Image aria-label={title} alt={title} title={title} className="h-[224px] object-cover object-top" src={image} height={224} width={400} />
         <div
           className="absolute bottom-0 left-0 right-0 top-0 bg-gray-900 opacity-25 transition duration-300 hover:bg-transparent">
         </div>

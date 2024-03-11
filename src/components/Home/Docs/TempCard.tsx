@@ -11,7 +11,7 @@ export interface TempCardProps {
 
 export const TempCard = ({ temp }: { temp: TempCardProps }) => {
   return <Link href={temp.href} target="_blank" className="max-w-sm overflow-hidden rounded shadow-lg">
-    <Image className="w-full" src={temp.img} alt={temp.title} width={100} height={100} />
+    <Image className="w-full" src={temp.img} alt={temp.title} title={temp.title} width={100} height={100} />
     <div className="px-6 py-4">
       <H3 className="mb-2 text-xl font-bold">{temp.title}</H3>
       <p className="text-base text-gray-700">
