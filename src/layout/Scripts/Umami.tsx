@@ -8,6 +8,6 @@ export const Umami = () => {
   }
   
   return <>
-    <Script async src="https://umami-six-phi.vercel.app/script.js" data-website-id="cb1bec25-d785-4e2b-ae37-7d8087b85a58"></Script>
+    <Script async src="https://track-sepia.vercel.app/script.js" data-website-id="5c8c4108-9fd5-471f-93ee-6ff1177cc4b9"></Script>
   </>
 }
